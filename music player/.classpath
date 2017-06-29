@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="25/gen"/>
+	<classpathentry excluding="com/loginregister/|userinformation/" kind="src" path="25/src"/>
+	<classpathentry kind="src" path="25/src/com/loginregister"/>
+	<classpathentry kind="src" path="25/src/userinformation"/>
+	<classpathentry kind="lib" path="25/bin/dexedLibs/android-support-v4-ae05a3805b577e0140319e4463c82b7f.jar"/>
+	<classpathentry kind="lib" path="25/bin/dexedLibs/android-support-v4-b92f4e3db64ff4b4aa6f4e6a7f716009.jar"/>
+	<classpathentry kind="lib" path="25/bin/dexedLibs/gson-2.2.1-7eb353b535de935f02281aab17891dbf.jar"/>
+	<classpathentry kind="lib" path="25/bin/dexedLibs/gson-2.2.1-c46fe60936aded809e0b108ff709f507.jar"/>
+	<classpathentry kind="lib" path="25/bin/dexedLibs/okhttp-3.0.0-RC1-45ae44f83d2cc1a4a67cfd7db53f3442.jar"/>
+	<classpathentry kind="lib" path="25/bin/dexedLibs/okhttp-3.0.0-RC1-d69486b36c7bc855026888a2637a04cb.jar"/>
+	<classpathentry kind="lib" path="25/bin/dexedLibs/okio-1.6.0-a782e9decf5f6f13adadc532e81af8d2.jar"/>
+	<classpathentry kind="lib" path="25/bin/dexedLibs/okio-1.6.0-c600f8922f5683ae6e9aebe585557583.jar"/>
+	<classpathentry kind="lib" path="25/libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="25/libs/gson-2.2.1.jar"/>
+	<classpathentry kind="lib" path="25/libs/okhttp-3.0.0-RC1.jar"/>
+	<classpathentry kind="lib" path="25/libs/okio-1.6.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="25/bin/classes"/>
+</classpath>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/newbg" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20.0dip" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/toolbar_up" >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="更多"
+                    android:textColor="#ffffff"
+                    android:textSize="20dip" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="基本设置"
+                android:textColor="#ff383838" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/regist_bg_circle"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/cleancache"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:background="@drawable/more_bell" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="清除缓存"
+                        android:textColor="@color/ash" />
+
+
+                   
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/shortcut"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:background="@drawable/account" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="创建快捷方式"
+                        android:textColor="@color/ash" />
+
+               
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/more_code"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:background="@drawable/key" />
+
+                    <TextView
+                        android:id="@+id/change"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="密码修改"
+                        android:textColor="@color/ash" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+				<LinearLayout
+                    android:id="@+id/exit_code"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:background="@drawable/more_bell" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="退出登录"
+                        android:textColor="@color/ash" />
+                </LinearLayout>
+            </LinearLayout>
+
+           
+
+            
+
+            
+
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

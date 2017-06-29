@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">斗鸟音乐</string>
+	<string name="text_musicName">歌曲名称</string>
+	<string name="text_myMusic">我的音乐</string>
+	<string name="text_allMusic">全部音乐</string>
+	<string name="text_playingMusic">播放列表</string>
+	<string name="text_footerText">正在播放的音乐</string>
+	<string name="text_deletePlayListMusics">清空列表</string>
+	<string name="text_gequbucunzai">歌曲已经不存在,尝试刷新或检查SD卡</string>
+	
+</resources>

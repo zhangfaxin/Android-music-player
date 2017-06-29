@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huazi.Mp3Player"
+    android:versionCode="1"
+    android:versionName="Beta0.7" >
+    
+    <!-- 更新内容： 
+    1、整体控制按钮的按钮效果 
+    -->
+
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="8"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <application
+        android:name="com.douniao.music.Utils.MyApplication"
+        android:icon="@drawable/launcher" >
+        <activity
+            android:name="com.douniao.music.StartActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity  android:name="com.douniao.music.Activity"
+       android:theme="@android:style/Theme.NoTitleBar" ></activity>
+        <activity
+            android:name="com.douniao.music.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.douniao.music.PlayMusicAcitivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.douniao.music.ProgressActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.douniao.music.AllMusicListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.douniao.music.MyMusicListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.douniao.music.PlayMusicListActivity"
+            android:label="@string/app_name" >
+        </activity>
+                <activity
+            android:name="com.douniao.music.user"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.loginregister.LoginAct"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.loginregister.RegisterAct">
+        </activity>
+        <activity
+            android:name="userinformation.setting">
+        </activity>
+            <activity
+            android:name="userinformation.search"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="userinformation.localsearch">
+        </activity>
+                <activity
+            android:name="userinformation.updatepassword">
+        </activity>
+                <activity
+            android:name="userinformation.onlinemusic"
+            android:theme="@android:style/Theme.Light">
+        </activity>
+                    <activity
+            android:name="userinformation.songdetails"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="userinformation.baseinformation">
+        </activity>  
+        <activity
+            android:name="userinformation.editinformation">
+        </activity>       
+        <service
+            android:name="com.douniao.music.PlayService"
+            android:enabled="true" >
+        </service>
+    </application>
+
+</manifest>
